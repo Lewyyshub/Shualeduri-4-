@@ -288,7 +288,6 @@ body.dark_mode #dark_mode {
 body.dark_mode .span1 {
   color: white;
 }
-
-#search_input:active .svg1 {
-  display: none;
+body.dark_mode #nickname {
+  color: #0079ff;
 }
