@@ -193,9 +193,6 @@ h1 {
   position: absolute;
   top: 330px;
 }
-/* .user_info{
-    display: none;
-} */
 
 @media (max-width: 768px) {
   #user_info {
