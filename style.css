@@ -218,14 +218,12 @@ h1 {
     top: 650px;
     left: 50px;
   }
+  #search_input::placeholder {
+    padding-left: 40px;
+    font-size: 13px;
+  }
 }
-/* .svg1 {
-  position: absolute;
-  left: 600px;
-} */
-.search_input.placeholde {
-  text-align: center;
-}
+
 body.dark_mode {
   background: #141d2f;
   color: #ffffff;
@@ -269,9 +267,6 @@ body.dark_mode .more_info > p {
 .search_txt::placeholder {
   padding-left: 60px;
 }
-input:focus + .svg1 {
-  display: none;
-}
 
 body.dark_mode #search_input::placeholder {
   color: white;
@@ -287,4 +282,8 @@ body.dark_mode .span1 {
 }
 body.dark_mode #nickname {
   color: #0079ff;
+}
+.svg1 {
+  position: absolute;
+  padding-left: 15px;
 }

@@ -11,7 +11,6 @@ const joinDate = document.getElementById("join_date");
 const toggleMode = document.getElementById("dark_mode");
 const nickname = document.getElementById("nickname");
 
-
 toggleMode.addEventListener("click", () => {
   document.body.classList.toggle("dark_mode");
 
